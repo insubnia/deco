@@ -1,1 +1,1 @@
-pyinstaller --noconsole --onefile --icon deco/mando.ico --add-data deco;deco gui.py --name app
+pyinstaller --noconsole --onefile --icon deco/mando.ico --add-data deco;deco --distpath . --name app   gui.py
