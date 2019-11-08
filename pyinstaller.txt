@@ -1,1 +1,2 @@
 pyinstaller --noconsole --onefile --icon deco/mando.ico --add-data deco;deco --distpath . --name app   gui.py
+pyinstaller --noconsole --onefile --icon deco/mando.ico --add-data deco;deco --add-data srecord-1.63-win32;srecord-1.63-win32 --distpath . --name app   gui.py
